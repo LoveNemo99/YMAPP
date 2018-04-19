@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="18dp"
+        android:paddingRight="18dp"
+        android:paddingBottom="10dp"
+        android:orientation="vertical">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+            <TextView android:id="@+id/text_1" style="@style/textview_style_alarm_1" android:text="工地"/>
+            <TextView android:id="@+id/text_2" style="@style/textview_style_alarm_2" android:text="监控点"/>
+        </LinearLayout>
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="horizontal">-->
+            <!--<TextView android:id="@+id/text_3" style="@style/textview_style_3" android:text=""/>-->
+            <!--<TextView android:id="@+id/text_4" style="@style/textview_style_4" android:text="μg/m³"/>-->
+        <!--</LinearLayout>-->
+        <View  android:layout_width="match_parent" android:layout_height="1dp"  android:background="@color/divider_color" />
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+            <TextView android:id="@+id/text_3" style="@style/textview_style_alarm_1" android:text="时间"/>
+            <TextView android:id="@+id/text_4" style="@style/textview_style_alarm_2" android:text="报警时间段"/>
+        </LinearLayout>
+        <View  android:layout_width="match_parent" android:layout_height="1dp"  android:background="@color/divider_color" />
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+            <TextView android:id="@+id/text_5" style="@style/textview_style_alarm_1" android:text="工地类型"/>
+            <TextView android:id="@+id/text_6" style="@style/textview_style_alarm_2" android:text="因子"/>
+        </LinearLayout>
+        <View  android:layout_width="match_parent" android:layout_height="1dp"  android:background="@color/divider_color" />
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+            <TextView android:id="@+id/text_7" style="@style/textview_style_alarm_1" android:text="时间类型"/>
+            <TextView android:id="@+id/text_8" style="@style/textview_style_alarm_2" android:text="报警限值"/>
+        </LinearLayout>
+        <View  android:layout_width="match_parent" android:layout_height="1dp"  android:background="@color/divider_color" />
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+            <TextView android:id="@+id/text_9" style="@style/textview_style_alarm_1" android:text="报警内容"/>
+            <TextView android:id="@+id/text_10" style="@style/textview_style_alarm_2" android:text=""/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+            <TextView android:id="@+id/text_11" style="@style/textview_style_alarm_1" android:text="内容"/>
+        </LinearLayout>
+        <View  android:layout_width="match_parent" android:layout_height="1dp"  android:background="@color/divider_color" />
+    </LinearLayout>
+</LinearLayout>

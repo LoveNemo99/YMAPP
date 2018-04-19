@@ -1,0 +1,92 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="textview_style_alarm_1">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">left</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:paddingTop">15dp</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <style name="textview_style_alarm_2">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">right</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:paddingTop">15dp</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <style name="textview_style_1">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">left</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <style name="textview_style_2">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">right</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <style name="textview_style_3">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">left</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:paddingTop">1dp</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/text_black</item>
+    </style>
+
+    <style name="textview_style_4">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">right</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:paddingTop">1dp</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/text_black</item>
+    </style>
+
+    <style name="textview_head_style_1">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_gravity">left</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:paddingLeft">15dp</item>
+    </style>
+</resources>
